@@ -1,4 +1,4 @@
-# Beginner level in C programminh
+# Beginner level in C programming
 
 ## C - Hello, World
 
