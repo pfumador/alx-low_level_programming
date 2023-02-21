@@ -12,7 +12,7 @@ int main(void)
 	int i;
 
 	/*Prints all single digits numbers of base 10 */
-	for (i = '0'; i < '10'; i++)
+	for (i = 0; i < 10; i++)
 	{
 	putchar(i + '0');
 	}
