@@ -7,17 +7,16 @@
 */
 int main(void)
 {
-	char ch;
-
-	while (ch <= 'z')
+	char letter;
 
 	/*Print lowercase alphabet except q and e */
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (ch != 'e' && ch != 'q')
+		if (letter != 'e' && letter != 'q')
 		{
-			putchar(ch);
+			putchar(letter);
 		}
-		ch++;
+		letter++;
 
 	}
 
