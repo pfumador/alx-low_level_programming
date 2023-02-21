@@ -12,7 +12,6 @@ int main(void)
 	while (ch <= 'z')
 
 	/*Print lowercase alphabet except q and e */
-	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
