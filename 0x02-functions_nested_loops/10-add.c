@@ -6,7 +6,7 @@
 *@b: second int to add
 *Return: results
 */
-int add(int, int)
+int add(int a, int b)
 {
 	int results;
 
