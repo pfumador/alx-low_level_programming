@@ -2,14 +2,14 @@
 /**
 *add - function adds two integers
 *
-*@int_1; first int to add
-*
+*@a; first int to add
+*@b: second int to add
 *Return: results
 */
 int add(int, int)
 {
 	int results;
 
-	results = int_1 + int_2;
+	results = a + b;
 	return (results);
 }
