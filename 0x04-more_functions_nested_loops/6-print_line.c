@@ -3,18 +3,25 @@
 /**
 *print_line - draws a straight line in the terminal
 *
-*@n: number of characters to be printed
+*@n: number of _ characters to be printed
 *
 *Return: void
 */
 
 int print_line(int n)
 {
-	int i;
+	int str_line;
 
-	for (i = 0; i < n; i++)
+	if (n <= 0)
 	{
-		_putchar('_');
+		_putchar('\n');
+	}
+	else
+	{
+		for (str_line = 0; str_line <= n; str_line++)
+		{
+			_putchar('_');
+		}
 	}
 	_putchar('\n');
 }
