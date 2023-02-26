@@ -8,7 +8,7 @@
 *Return: void
 */
 
-int print_line(int n)
+void print_line(int n)
 {
 	int str_line;
 
@@ -18,10 +18,10 @@ int print_line(int n)
 	}
 	else
 	{
-		for (str_line = 0; str_line <= n; str_line++)
+		for (str_line = 1; str_line <= n; str_line++)
 		{
 			_putchar('_');
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
