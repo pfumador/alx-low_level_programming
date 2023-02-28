@@ -3,8 +3,8 @@
 /**
 *swap_int - function that swaps the value of two integers
 *
-*@x: first number
-*@y: second number
+*@a: first number
+*@b: second number
 *
 *Return: Always 0
 */
