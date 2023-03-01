@@ -11,13 +11,15 @@
 
 void print_rev(char *s)
 {
-	int len = strlen(*s);
-	const char p = str + len - 1
+	int len = 0, index;
 
-	while (p >= str)
+	while (*s[index++])
 	{
-		_putchar(*p);
-		p--;
+		len++;
+	}
+	for (index = len - 1; index >= 0; index--)
+	{
+		_putchar(*s[index])
 	}
 	_putchar('\n');
 }
